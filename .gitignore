@@ -33,20 +33,15 @@ dist/
 *.egg-info/
 
 # ML model files (large)
-*.pkl
-*.pickle
-*.joblib
-*.sav
-*.h5
-*.pt
-
 # Dataset files
 data/
 datasets/
 *.csv
 *.tsv
 *.json
-
+venv/
+__pycache__/
+*.pyc
 # Node modules (if React frontend)
 node_modules/
 npm-debug.log

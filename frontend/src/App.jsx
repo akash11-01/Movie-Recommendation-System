@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 
-const API = "http://127.0.0.1:8000";
+const API = "https://movie-recommendation-system-5qzn.onrender.com";
 
 export default function App() {
   const [query, setQuery] = useState("");
