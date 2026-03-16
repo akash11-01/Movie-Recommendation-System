@@ -38,7 +38,9 @@ data/
 datasets/
 *.csv
 *.tsv
-*.json
+# Keep npm manifest files trackable
+!**/package.json
+!**/package-lock.json
 venv/
 __pycache__/
 *.pyc
