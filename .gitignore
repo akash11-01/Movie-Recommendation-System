@@ -1,0 +1,65 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Environment variables
+.env
+.env.*
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Python build files
+build/
+dist/
+*.egg-info/
+
+# ML model files (large)
+*.pkl
+*.pickle
+*.joblib
+*.sav
+*.h5
+*.pt
+
+# Dataset files
+data/
+datasets/
+*.csv
+*.tsv
+*.json
+
+# Node modules (if React frontend)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# React build
+build/
+dist/
+
+# Coverage reports
+coverage/
+htmlcov/
+
+# Temporary files
+*.tmp
+*.temp
